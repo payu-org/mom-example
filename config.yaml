@@ -1,0 +1,23 @@
+# PBS flags
+queue: normal
+walltime: 1:00:00
+ncpus: 120
+mem: 240GB
+jobname: mom-example-01
+runspersub: 5
+
+# Collate flags
+collate:
+    walltime: 4:00:00
+    mem: 10GB
+    queue: copyq
+
+# Model config
+model: mom
+exe: fms_MOM_SIS.x
+input: 
+       - mom10/mosaic
+       - mom10/common
+
+# Misc
+stacksize: unlimited
