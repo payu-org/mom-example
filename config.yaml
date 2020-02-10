@@ -1,23 +1,16 @@
-# PBS flags
+# Scheduler settings
 queue: normal
-walltime: 1:00:00
-ncpus: 120
-mem: 240GB
-jobname: mom-example-01
-runspersub: 5
+ncpus: 1
+walltime: 10:00
+jobname: bowl1
 
-# Collate flags
-collate:
-    walltime: 4:00:00
-    mem: 10GB
-    queue: copyq
-
-# Model config
+# Model settings
 model: mom
-exe: fms_MOM_SIS.x
-input: 
-       - mom10/mosaic
-       - mom10/common
+shortpath: /scratch/v45
+exe: fms_MOM_solo.x
+input: bowl1
 
-# Misc
-stacksize: unlimited
+# Postprocessing
+collate:
+  walltime: 10:00
+  mem: 1GB
