@@ -1,113 +1,18 @@
 format: yamanifest
 version: 1.0
 ---
-work/INPUT/atmos_hgrid.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/mosaic/atmos_hgrid.nc
+work/INPUT/gotmturb.inp:
+  fullpath: /scratch/v45/aph502/mom/input/bowl1/gotmturb.inp
   hashes:
-    binhash: 0f708deeb9c50bb39fde4d4dc0e21bd5
-    md5: 492b4aa04d7d3afe424a8ce7f5063e62
-work/INPUT/atmos_mosaic.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/mosaic/atmos_mosaic.nc
-  hashes:
-    binhash: c96a0247e4c63844e60a68395dbeb8d9
-    md5: 808500cc6ed1c543dc934d7a4ca9a684
-work/INPUT/atmos_mosaicXland_mosaic.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/mosaic/atmos_mosaicXland_mosaic.nc
-  hashes:
-    binhash: babddb44b1d208df627a99d730c69204
-    md5: 3cb3c3ff4146350453a4e3ee4e0f1052
-work/INPUT/atmos_mosaicXocean_mosaic.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/mosaic/atmos_mosaicXocean_mosaic.nc
-  hashes:
-    binhash: dce22f9d611b43e16e528358481a8a90
-    md5: dca7a4abb15c44d9ef2f7f5518fa2570
-work/INPUT/basin_mask.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/common/basin_mask.nc
-  hashes:
-    binhash: e49b71266f62a06ba5155ac775795ec1
-    md5: 20fd8740f24ca95c7c086343077e9c0d
-work/INPUT/chl.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/common/chl.nc
-  hashes:
-    binhash: 055ce73965d6d5b2f4c38a14d800ebfe
-    md5: 99b68aec777292d746e4d93c2b976189
+    binhash: 1730d092cdc5d86e234d3749857ed318
+    md5: 3016ea3bccf1acd2c18eefdd6dbf02e9
 work/INPUT/grid_spec.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/mosaic/grid_spec.nc
+  fullpath: /scratch/v45/aph502/mom/input/bowl1/grid_spec.nc
   hashes:
-    binhash: 555f721a9706f539c223be89352a36a4
-    md5: 027d2f8fb1eda3ef1cf0a3f520a217f7
-work/INPUT/land_hgrid.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/mosaic/land_hgrid.nc
-  hashes:
-    binhash: c8e68340b312b36bc21792b9cad4a1bc
-    md5: 492b4aa04d7d3afe424a8ce7f5063e62
-work/INPUT/land_mosaic.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/mosaic/land_mosaic.nc
-  hashes:
-    binhash: 993935a4e5d0b3a791fa7517465b600e
-    md5: f7d0fdb81b56625cb2f06ae7740100ff
-work/INPUT/land_mosaicXocean_mosaic.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/mosaic/land_mosaicXocean_mosaic.nc
-  hashes:
-    binhash: 69bea8bd0437bed019c24ed9accd1b7f
-    md5: ccec958b996c68731d4d7ae7887384f8
-work/INPUT/mosaic.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/mosaic/mosaic.nc
-  hashes:
-    binhash: 5f6f623ba0ca5fae0b8a5e3700747b0c
-    md5: 027d2f8fb1eda3ef1cf0a3f520a217f7
-work/INPUT/ocean_hgrid.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/mosaic/ocean_hgrid.nc
-  hashes:
-    binhash: ebf36ac2d65e71720d3886102c9c0966
-    md5: 51f58be0f4ea6da2cb438a893f95c689
-work/INPUT/ocean_mosaic.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/mosaic/ocean_mosaic.nc
-  hashes:
-    binhash: 50d0219fecbfd5ce67c3d279615a1910
-    md5: cb42e630ee31d3686156fcbdc2f9d07c
+    binhash: b79c406507e2b96725a08237e2165314
+    md5: f571a0106c4a2eba38e3c407335e8cca
 work/INPUT/ocean_temp_salt.res.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/common/ocean_temp_salt.res.nc
+  fullpath: /scratch/v45/aph502/mom/input/bowl1/ocean_temp_salt.res.nc
   hashes:
-    binhash: bdf67de1b277c685422edeaf4d4780e5
-    md5: c9814c04b393cf73fe3d16daf5d421af
-work/INPUT/ocean_vgrid.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/mosaic/ocean_vgrid.nc
-  hashes:
-    binhash: 16328a75f525a5631b36476416e6b033
-    md5: 4541bee34f2020706ea86003cc56ac5c
-work/INPUT/roughness_amp.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/common/roughness_amp.nc
-  hashes:
-    binhash: 45a81244b416c5cc16185048e0c478ac
-    md5: 185dadeb53da2de75b47c53fd7085f89
-work/INPUT/roughness_cdbot.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/common/roughness_cdbot.nc
-  hashes:
-    binhash: ff220b4cc4584894fe98cfe611ee5184
-    md5: 76fd562ceafd544215f19475e40ae79c
-work/INPUT/salt_sfc_restore.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/common/salt_sfc_restore.nc
-  hashes:
-    binhash: 29afb6ab35c63e4e7f2d4329e57a1172
-    md5: d95d45424492bad16d647c104e78b442
-work/INPUT/sst_ice_clim.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/common/sst_ice_clim.nc
-  hashes:
-    binhash: b7c2a5e67b13a7823bd2262d35ba4d04
-    md5: eea35547f8b836c678f75f75f8445a09
-work/INPUT/ssw_atten_depth.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/common/ssw_atten_depth.nc
-  hashes:
-    binhash: eaad0ce3f1847fb5672d9de808daf469
-    md5: 6142db126b8d2c8d8f4b6fb0e05d60c5
-work/INPUT/tideamp.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/common/tideamp.nc
-  hashes:
-    binhash: feee3a076add9b3dab8115a663e2e847
-    md5: b2840af757d9b7b40207f33f1fc84c5c
-work/INPUT/topog.nc:
-  fullpath: /scratch/v45/aph502/mom/input/mom10/mosaic/topog.nc
-  hashes:
-    binhash: 932c8770efc724bcae7e4d82b5491a41
-    md5: ed5a7bc7481d62da566f28ab87a9a72c
+    binhash: d70322dece2f10aaacf751254a2acee7
+    md5: f506e15417ed813fde3516a262ff35e5
